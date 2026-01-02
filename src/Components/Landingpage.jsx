@@ -45,8 +45,7 @@ function Landingpage() {
         </header>
 
         <div className="header_img" data-aos="fade-left">
-          {/* <img src="./capitalflow.png" alt="" /> */}
-          <img src="./capitalflow.png" alt="" />
+          <img src="./capitalflow.png" alt="Capital Flow" />
         </div>
       </section>
 
