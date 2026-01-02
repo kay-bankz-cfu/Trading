@@ -8,7 +8,7 @@
 }
 
 .landing_page{
-	background-image: url("backgroundbg.png");
+	background-image: url("/backgroundbg.png");
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
