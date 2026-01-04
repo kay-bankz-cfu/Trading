@@ -22,20 +22,19 @@ function Landingpage() {
         <header className="landing-hero" data-aos="fade-right">
           <div className="hero-content">
             <h2>
-              CAPIATL FLOW TRADING <br /> HUB
+              CAPITAL FLOW TRADING <br /> HUB
             </h2>
             <h3 className="sub-heading">Elite By Strategy</h3>
             <p className="subtitle">
               Unlock the power of the financial market with our
               institutional-grade strategies
-              <br />
               and all in one ecosystem—perfect for beginners and pro traders
               alike.
             </p>
 
             <div className="cta-group">
               <a href="#about_us" className="btn primary">
-                Explore CF
+                Explore
               </a>
               <a href="#learn-more" className="btn outline">
                 Learn More
@@ -45,18 +44,18 @@ function Landingpage() {
         </header>
 
         <div className="header_img" data-aos="fade-left">
-          <img src="./capitalflow.png" alt="Capital Flow" />
+          <img src="./dashboardd.jpg" alt="Capital Flow" />
         </div>
       </section>
 
       <div className="section_two" id="about_us">
         <h1>Why Choose Capital Flow?</h1>
-        <p className="section_two_headline">
-          Trade with Confidence.. Thrive with Expertise
-        </p>
+        <h2 className="section_two_headline">
+          Trade with Confidence - Thrive with Expertise
+        </h2>
         <p className="section_two_subheading">
-          Capital Flow Trading Hub Stand Out By blending Cutting-Edge Strategies
-          With Unmatched Reliability
+          CFTRADINGHUB stand out by blending cutting-edge strategies
+          with unmatched reliability
         </p>
         <b className="section_two_content">Here is why traders choose us:</b>
         <div>
@@ -114,7 +113,7 @@ function Landingpage() {
           </div>
         </div>
         <div className="discover-wrapper">
-          <a className="discover" href="#">
+          <a className="discover" href="https://chat.whatsapp.com/CqnLFOQXKYe67rXhQCandc?mode=wwt">
             Discover More
           </a>
         </div>
@@ -122,44 +121,44 @@ function Landingpage() {
 
       <section className="features" id="learn-more">
         <div className="container">
-          <h2>Services we offer</h2>
-          <h4>
+          <h1>Services we offer</h1>
+          <h2>
             Comprehensive Solutions for Market Success & Real-time Signals
-          </h4>
-          <p>
+          </h2>
+          <p className="features_subheading">
             Our Unified Ecosystem Empowers You to Trade Smarter,Grow Faster And
             Succed With Confidence Across Forex, Crypto, Stocks, Commodities And
             Indices
           </p>
           <div className="feature-grid">
-            <div className="feature" data-aos="fade-right">
+            <div className="feature-second" data-aos="fade-right">
               <img src="./bg1.jpg" alt="" />
               <h3>Multi-Asset Trading and Fund Management</h3>
-              <p>
-                Grow your wealth with our professional tradimg and fund
+              <p className="real">
+                Grow your wealth with our professional trading and fund
                 management services. We deploy capital across diverse markets
-                using smart money tactics, algorithemic insight, and price
-                action all governed by a 2% drowndown cap.
+                using smart money tactics, algorithmic insight, and price
+                action all governed by a 2% drawdown cap.
               </p>
             </div>
-            <div className="feature">
+            <div className="feature-second">
               <img src="./bg3.jpg" alt="" />
               <h3>Analysis-Backed Signal</h3>
-              <p>
+              <p className="real">
                 Get real-time high-probability trade setup with clear entry,
                 stop-loss and take-profit levels. Powered by price action
                 fibonacci metrics and institutional oder flow, our signal offer
                 clarity and confidence for traders at any level.
               </p>
             </div>
-            <div className="feature" data-aos="fade-left">
+            <div className="feature-second" data-aos="fade-left">
               <img src="bg2.jpg" alt="" />
-              <h3>Market Mastery Traning</h3>
-              <p>
+              <h3>Market Mastery Training</h3>
+              <p className="real">
                 Become a pro trader with our immersive training program. Learn
-                smart money techniques, algorithemic layerin, advanced risk
-                management, and psycological dicipline through live insight and
-                mentorship, desighned for beginners and veterians alike.
+                smart money techniques, algorithmic layering, advanced risk
+                management, and psychological discipline through live insight and
+                mentorship, designed for beginners and veterans alike.
               </p>
             </div>
           </div>
@@ -169,7 +168,7 @@ function Landingpage() {
       <div className="dashboard_container">
         <h6 data-aos="zoom-in">
           With Capital Flow Trading Hub, You get a trusted partner, a powerful
-          ecosystem and strategies that deliver. Whether you are starting out or
+          ecosystem and strategies that deliver. Either you are starting out or
           scaling up, we're here to guide you every step of the way.
         </h6>
         <img src="./dashboard.jpg" alt="" data-aos="zoom-in-up" />
@@ -182,24 +181,21 @@ function Landingpage() {
         </div>
 
         <details className="faq-item">
-          <summary>Who is Capital Flow Trading Hub for?</summary>
+          <summary>What makes Capital Flow Trading Hub's approach different?</summary>
           <p>
-            We serve both new and experienced traders looking to succeed in
-            Forex, Crypto, Stocks, Commodities, and Indices.
+            Our approach is structured, data-driven, and risk-focused. Traders are executed based on predefined rules, statistical edge, and disciplined execution - not impulse or speculation.
           </p>
         </details>
         <details className="faq-item">
-          <summary>What makes your strategies stand out?</summary>
+          <summary>What markets does Capital Flow Trading Hub operate in?</summary>
           <p>
-            Our hybrid approach combines smart money, algorithmic precision and
-            institutional insights, backed by 2% drawdown cap for safety.
+            We analyze and trade Forex, Crypto, Indices, Commodities, and Selected Equities, adapting strategies to liquidity, volatility, and market conditions.
           </p>
         </details>
         <details className="faq-item">
-          <summary>How can i get started?</summary>
+          <summary>How is risk managed on each trade?</summary>
           <p>
-            Reach out to explore our services and personalized onboarding
-            process tailored to your goals.
+            Risk is controlled through strict position sizing, predefined stop-loss levels, and maximum drawdown rules. Capital preservation is always the priority, ensuring long-term sustainability and consistency.
           </p>
         </details>
         <details className="faq-item">
@@ -209,10 +205,19 @@ function Landingpage() {
             ensuring long-term capital safety.
           </p>
         </details>
+        <details className="faq-item">
+          <summary>Who is Capital Flow Trading Hub suitable for?</summary>
+          <p>
+            Our framework is suitable for disciplined traders, serious learners, and investors who value structured decision-making, risk management, and long-term consistency over short-term speculation.
+          </p>
+        </details>
       </section>
 
       <footer className="footer">
         <div className="footer-container">
+          <a href="#"> 
+            <img src="./logo.png" alt="" />
+          </a>
           <div className="footer-brand">
             <h3>Capital Flow</h3>
             <p>
@@ -268,7 +273,7 @@ function Landingpage() {
         </div>
 
         <div className="footer-bottom">
-          <p>© 2025 Capital Flow Trading Hub. All rights reserved.</p>
+          <p>© 2023 Capital Flow Trading Hub. All rights reserved.</p>
         </div>
       </footer>
 

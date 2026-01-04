@@ -92,7 +92,7 @@
   position: sticky;
   top: 0;
   z-index: 1000;
-  background: whitesmoke;
+  background: rgba(28, 28, 28, 0.752);
   max-width: 70%;
   margin: 0 auto;
   border-radius: 15px;
@@ -101,7 +101,7 @@
 .nav-container {
   max-width: 1200px;
   margin: auto;
-  padding: 1rem 2rem;
+  padding: 0.1rem 2rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -114,9 +114,14 @@
   color: black;
 }
 
-.logo span {
-  color: #4da3ff;
+.logo img{
+  width: fit-content;
+  height: 50px;
+  font-size: larger;
 }
+/* .logo{
+  color: whitesmoke;
+} */
 
 /* Desktop menu */
 .nav-links {
@@ -127,12 +132,12 @@
 
 .nav-links li a {
   text-decoration: none;
-  color: #4da3ff;
+  color: whitesmoke;
   font-size: 1.2rem;
 }
 .nav-links li a:hover {
   background: rgba(179, 179, 179, 0.522);
-  color: black;
+  color: #4da3ff;
   padding: 0.4rem;
   border-radius: 6px;
 }

@@ -8,11 +8,14 @@ function Navbar() {
 	return (
 <nav className="nav">
   <div className="nav-container">
-    <a href="" className="logo">CF<span>Hub</span></a>
+    {/* <a href="" className="logo">CFT<span>Hub</span></a> */}
+    <a href="#" className="logo"> 
+      <img src="./logo.png" alt="" />
+    </a>
 
     <ul className={`nav-links ${open ? "open" : ""}`}>
       <li><a href="#learn-more">Features</a></li>
-      <li><a href="#">Pricing</a></li>
+      {/* <li><a href="#">Pricing</a></li> */}
       <li><a href="#about_us">About Us</a></li>
       <li><a href="#contact">Contact</a></li>
     </ul>
